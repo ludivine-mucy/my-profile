@@ -37,9 +37,21 @@ span {
   margin: 50px auto;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 960px) {
   .container {
-    width: 400px;
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
   }
 }
 
